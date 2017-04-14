@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="10dp"
+    android:gravity="center_horizontal"
+    android:layout_height="match_parent">
+    <Button
+        android:id="@+id/btn_level1"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button"
+        android:text="容易"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_level2"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button"
+        android:text="一般"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_level3"
+        android:layout_marginBottom="10dp"
+        android:textColor="@color/colorPrimary"
+        android:background="@drawable/button"
+        android:text="很难"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
